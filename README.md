@@ -14,3 +14,5 @@ To build and serve locally for development:
 To build and deploy to GitHub pages:
 
 `npm run deploy` &mdash; you will be prompted for your GitHub user credentials.
+
+There are also standalone `npm run clean` and `npm run build` tasks.
