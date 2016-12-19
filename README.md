@@ -6,13 +6,18 @@ The primary domain, [dunedin.js.org](https://dunedin.js.org/) is kindly provided
 
 ## Tasks
 
-To build and serve locally for development:
+#### To build and serve locally for development
 
 * In one terminal run `npm run dev` &mdash; this watches source files and re-builds automatically.
 * In another terminal run `npm start` &mdash; this serves the built files from the `public` directory.
 
-To build and deploy to GitHub pages:
+#### To build and deploy to GitHub pages
 
-`npm run deploy` &mdash; you will be prompted for your GitHub user credentials.
+* `npm run deploy` &mdash; you will be prompted for your GitHub user credentials.
 
-There are also standalone `npm run clean` and `npm run build` tasks.
+#### Other tasks
+
+There are standalone `npm run clean` and `npm run build` tasks.
+
+`npm run hexo -- ` can be followed by any commands which Hexo supports.
+For example `npm run hexo -- new post sample` to create a new post.
