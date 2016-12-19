@@ -44,7 +44,7 @@ js_effect:
 #     Material | Github | Plain
 reading:
     markdown: Github
-    entry_excerpt: 80
+    entry_excerpt: 250
     code_highlight: solarized-white
 
 # Thumbnail Settings

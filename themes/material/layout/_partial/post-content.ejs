@@ -1,15 +1,26 @@
 <div id="post-content" class="markdown-<%= theme.reading.markdown %> mdl-color-text--grey-700 mdl-card__supporting-text fade out">
-	<% if(theme.scheme == "Paradox"){ %>
-		<%- page.content %>
-	<% } %>
-	
-	<% if(theme.scheme == "Isolation"){ %>
-		<div class="post-content_wrapper">
-			<p class="post-title">
-				<%- page.title %>
-			</p>
-			<%- page.content %>
-		</div>
-	<% } %>
-	
+  <% if(theme.scheme == "Paradox"){ %>
+    <%- page.content %>
+  <% } %>
+
+  <% if(theme.scheme == "Isolation"){ %>
+    <div class="post-content_wrapper">
+      <p class="post-title">
+        <%- page.title %>
+      </p>
+      <%- page.content %>
+    </div>
+  <% } %>
 </div>
+
+<!-- Post_entry Footer -->
+<% if (page.date) { %>
+  <div class="post_entry-footer">
+    <div class="post_entry-footer-border"></div>
+    <div class="post_entry-footer-info">
+      <div class="post_entry-footer-date">
+        <%= date(page.date, 'MMM DD, YYYY') %>
+      </div>
+    </div>
+  </div>
+<% } %>
