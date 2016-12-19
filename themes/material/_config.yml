@@ -85,6 +85,11 @@ fonts: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "
 sns:
     github: https://github.com/DunedinJS
 
+# Pages Menu
+pages:
+    about: "/about"
+
+
 
 # ---------------------------------------------------------------
 # Integrated Services
