@@ -11,10 +11,11 @@ This month we get much more hands-on with some smaller topics which will form th
 > __December 20, 2016
 > 5:30pm to 7:30pm
 > Room D101, D block (on Harbour Terrace), Otago Polytechnic__
+>
+> [RSVP on Meetup](https://www.meetup.com/Code-Craft-Dunedin/events/236078569/)
 
-> [See the event on Meetup](https://www.meetup.com/Code-Craft-Dunedin/events/236078569/)
-> [See workshop content on the DunedinJS/dunedin-modern-javascript repo](https://github.com/DunedinJS/dunedin-modern-javascript/blob/master/workshops/2/overview.md)
-
+See workshop content in the DunedinJS/dunedin-modern-javascript repo
+{% githubCard DunedinJS dunedin-modern-javascript %}
 
 ### Homework:
 
@@ -31,7 +32,7 @@ Take a small old-style JS app, make the source code modular, and introduce moder
 ### Part 2: Up and running with a React
 
 Get up and running with a React starter project based on [Create React App](https://github.com/facebookincubator/create-react-app).
-_**We will continue to use this in future workshops too**_
+_**We will continue to use this in future workshops too.**_
 
 ### Part 3: Testing with Jest
 

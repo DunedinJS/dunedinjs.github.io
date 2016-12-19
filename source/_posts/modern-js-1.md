@@ -20,6 +20,8 @@ can be used to improve long-standing idioms.
 > __November 22, 2016
 > 5:30pm to 7:30pm
 > Room D101, D block (on Harbour Terrace), Otago Polytechnic__
+>
+> [RSVP on Meetup](https://www.meetup.com/Code-Craft-Dunedin/events/235580603/)
 
-> [See the event on Meetup](https://www.meetup.com/Code-Craft-Dunedin/events/235580603/)
-> [See workshop content on the DunedinJS/dunedin-modern-javascript repo](https://github.com/DunedinJS/dunedin-modern-javascript/blob/master/workshops/1/overview.md)
+See workshop content in the DunedinJS/dunedin-modern-javascript repo
+{% githubCard DunedinJS dunedin-modern-javascript %}
