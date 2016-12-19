@@ -2,6 +2,8 @@
 
 DunedinJS website built with the excellent [Hexo](https://hexo.io/) static website generator.
 
+The primary domain, [dunedin.js.org](https://dunedin.js.org/) is kindly provided by [dns.js.org](https://dns.js.org/).
+
 ## Tasks
 
 To build and serve locally for development:
