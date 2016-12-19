@@ -1,0 +1,54 @@
+<!-- Import File -->
+<%- js("js/highlight.min") %>
+<%- js("js/js.min") %>
+<%- partial("_partial/nprogress") %>
+
+<% if( theme.js_effect.smoothscroll == true ){ %>
+	<%- js("js/smoothscroll") %>
+<% } %>
+
+<%- partial("_partial/footer-option") %>
+
+<!-- Swiftye -->
+<% if( theme.search.use == "swiftype" ){ %>
+	<%- partial("_widget/search-swiftype-js") %>
+<% } %>
+
+<!-- Local Search-->
+<% if( theme.search.use == "local" ){ %>
+	<%- partial("_widget/search-local-js") %>
+
+	<script>
+        var inputArea = document.querySelector("#search");
+        var getSearchFile = function(){
+            var path = "<%= config.search.path %>";
+            searchFunc(path, 'search', 'local-search-result');
+        }
+
+        inputArea.onfocus = function(){ getSearchFile() }
+	</script>
+<% } %>
+
+<!-- Window Load-->
+<script>
+    $(window).load(function() {
+        // Post_Toc parent position fixed
+        $(".post-toc-wrap").parent(".mdl-menu__container").css("position", "fixed");
+    });
+</script>
+
+<!-- MathJax Load-->
+<% if (page.mathjax){ %>
+    <%- partial('_widget/mathjax') %>
+<% } %>
+
+<!-- Google Analytics-->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-89183011-1', 'auto');
+    ga('send', 'pageview');
+</script>

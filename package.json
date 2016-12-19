@@ -1,0 +1,35 @@
+{
+  "name": "dunedinjs.github.io",
+  "version": "0.0.0",
+  "hexo": {
+    "version": "3.2.2"
+  },
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DunedinJS/dunedinjs.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DunedinJS/dunedinjs.github.io/issues"
+  },
+  "scripts": {
+    "start": "hexo serve",
+    "build": "hexo generate",
+    "dev": "hexo generate -w"
+  },
+  "dependencies": {
+    "hexo": "^3.2.0",
+    "hexo-deployer-git": "0.2.0",
+    "hexo-generator-archive": "^0.1.4",
+    "hexo-generator-category": "^0.1.3",
+    "hexo-generator-index": "^0.2.0",
+    "hexo-generator-tag": "^0.2.0",
+    "hexo-renderer-ejs": "^0.2.0",
+    "hexo-renderer-markdown-it": "3.4.1",
+    "hexo-renderer-marked": "^0.2.10",
+    "hexo-renderer-stylus": "^0.3.1",
+    "hexo-server": "^0.2.0",
+    "markdown-it-emoji": "1.3.0",
+    "twemoji": "2.2.0"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "hexo-material",
+  "version": "1.2.4",
+  "description": "Material Design Theme for Hexo",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viosey/hexo-theme-material.git"
+  },
+  "keywords": [
+    "hexo",
+    "theme",
+    "material"
+  ],
+  "author": {
+    "name": "Viosey"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/viosey/hexo-theme-material/issues"
+  },
+  "homepage": "https://github.com/viosey/hexo-theme-material#readme",
+  "gitHead": "191126b174fe89ccab252eb0ba21e10077e7715d",
+  "_id": "hexo-material@1.2.4",
+  "_shasum": "57457dcded208d71f30243a0fb2d1fdb1b7ccdee",
+  "_from": "hexo-material@latest",
+  "_npmVersion": "3.10.8",
+  "_nodeVersion": "6.9.1",
+  "_npmUser": {
+    "name": "viosey",
+    "email": "imviosey@gmail.com"
+  },
+  "dist": {
+    "shasum": "57457dcded208d71f30243a0fb2d1fdb1b7ccdee",
+    "tarball": "https://registry.npmjs.org/hexo-material/-/hexo-material-1.2.4.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "viosey",
+      "email": "imviosey@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/hexo-material-1.2.4.tgz_1481440126833_0.8543545485008508"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/hexo-material/-/hexo-material-1.2.4.tgz"
+}
