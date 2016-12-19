@@ -16,7 +16,7 @@
     "start": "hexo serve",
     "build": "hexo generate",
     "dev": "hexo generate -w",
-    "deploy": "hexo deploy -g"
+    "deploy": "hexo clean; hexo deploy -g"
   },
   "dependencies": {
     "hexo": "^3.2.0",
