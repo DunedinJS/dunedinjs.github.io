@@ -14,6 +14,7 @@
   },
   "scripts": {
     "start": "hexo serve",
+    "clean": "hexo clean",
     "build": "hexo generate",
     "dev": "hexo generate -w",
     "deploy": "hexo clean; hexo deploy -g"
