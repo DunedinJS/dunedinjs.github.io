@@ -67,7 +67,7 @@ theme: material
 
 # Plugins
 plugins:
-- hexo-generator-cname
+  - hexo-generator-cname
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
