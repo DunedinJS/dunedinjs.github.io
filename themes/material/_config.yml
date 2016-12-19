@@ -84,6 +84,7 @@ fonts: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "
 # SNS Menu
 sns:
     github: https://github.com/DunedinJS
+    youtube: https://www.youtube.com/channel/UCUlFxZtXrU1YsMpc9-52PjQ
 
 # Pages Menu
 pages:
