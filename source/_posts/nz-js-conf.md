@@ -5,7 +5,7 @@ tags:
     - Conference
 ---
 
-The first __nz.js(con);__ has been announced for Wellington on March 9&ndash;10, 2017.
+The first __`nz.js(con);`__ has been announced for Wellington on March 9&ndash;10, 2017.
 This will be New Zealand's first dedicated national JavaScript conference.
 
 http://conference.javascript.org.nz/
