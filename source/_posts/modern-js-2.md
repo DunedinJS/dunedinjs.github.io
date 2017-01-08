@@ -25,15 +25,8 @@ https://github.com/DunedinJS/dunedin-modern-javascript/blob/master/topics/common
 
 Also have a text editor with first-class JavaScript support -- Atom, VSCode, and Sublime Text are best.
 
-### Part 1: Migrating an existing app to modern JS
+### Migrating an existing app to modern JS
 
 Take a small old-style JS app, make the source code modular, and introduce modern JS features in a pragmatic way.
 
-### Part 2: Up and running with a React
-
-Get up and running with a React starter project based on [Create React App](https://github.com/facebookincubator/create-react-app).
-_**We will continue to use this in future workshops too.**_
-
-### Part 3: Testing with Jest
-
-An introduction to unit testing with the excellent [Jest](http://facebook.github.io/jest/) framework.
+[DunedinJS/migrating-to-modern-js](https://github.com/DunedinJS/migrating-to-modern-js) stages 00 to 05
