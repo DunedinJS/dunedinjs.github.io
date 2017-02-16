@@ -20,8 +20,8 @@ We'll also cover why React might be chosen for a project and make recommendation
 
 _Everything will be at a suitable level for new-comers with minimal JavaScript experience._
 
-> __January 17, 2017
-> 5:30pm to 7:30pm
+> __February 21, 2017
+> 5:30pm to 7:00pm
 > Room D101, D block (on Harbour Terrace), Otago Polytechnic__
 >
 > [RSVP on Meetup](https://www.meetup.com/Code-Craft-Dunedin/events/237750820/)
