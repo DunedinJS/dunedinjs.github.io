@@ -4,6 +4,8 @@ date: 2017-01-09 09:05:49
 tags:
     - Modern JavaScript
     - Workshop
+    - Jest
+    - ESLint
 ---
 
 This month we'll continue from where we finished the December workshop with the [DunedinJS/migrating-to-modern-js](https://github.com/DunedinJS/migrating-to-modern-js) project.
